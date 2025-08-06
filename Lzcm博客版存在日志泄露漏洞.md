@@ -15,3 +15,7 @@ From lines 80 to 83, logs of different severity levels are written separately wi
 Relevant code snippet is as follows
 
 ![1.png](https://raw.githubusercontent.com/kklzzcun/CMS/main/assets/1.png)
+![2.png](https://raw.githubusercontent.com/kklzzcun/CMS/main/assets/2.png)
+![3.png](https://raw.githubusercontent.com/kklzzcun/CMS/main/assets/3.png)
+By accessing the path http://zzcun:9000/runtime/log/202507/18.log, an attacker can directly obtain administrator login information and other sensitive data.
+![4.png](https://raw.githubusercontent.com/kklzzcun/CMS/main/assets/4.png)
