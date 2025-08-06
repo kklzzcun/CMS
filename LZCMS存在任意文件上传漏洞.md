@@ -6,22 +6,23 @@ Through code auditing, it was found that in application/common/model/Upload.php 
 
 ![image-20250705231127920](https://raw.githubusercontent.com/kklzzcun/CMS/main/assets/image-20250705231127920.png)
 
-![image-20250705232533041](C:\Users\酸菜鱼\Desktop\CVE\lzcms3\assets\image-20250705232533041.png)
+![image-20250705232533041](https://raw.githubusercontent.com/kklzzcun/CMS/main/assets/image-20250705232533041.png)
 
 
 After logging into the admin panel, source code can be directly uploaded in the "Source Code Sharing" section. The uploaded file can then be accessed directly using the returned path.
 
 
 
-![image-20250705231334849][(C:\Users\酸菜鱼\Desktop\CVE\lzcms3\assets\image-20250705231334849.png)](https://github.com/kklzzcun/CMS/raw/main/assets/image-2025070523134849.png)
+![image-20250705231334849](https://raw.githubusercontent.com/kklzzcun/CMS/main/assets/image-20250705231334849.png)
 
 
 
 
 
-![image-20250705232249324](C:\Users\酸菜鱼\Desktop\CVE\lzcms3\assets\image-20250705232249324.png)
+![image-20250705232249324](https://raw.githubusercontent.com/kklzzcun/CMS/main/assets/image-20250705232533041.png)
 
-![image-20250705232811177](C:\Users\酸菜鱼\Desktop\CVE\lzcms3\assets\image-20250705232811177.png)
+![image-20250705232811177](https://raw.githubusercontent.com/kklzzcun/CMS/main/assets/image-20250705232811177.png)
+
 
 
 
