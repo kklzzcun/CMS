@@ -19,9 +19,10 @@ After logging into the admin panel, source code can be directly uploaded in the 
 
 
 
-![image-20250705232249324](https://raw.githubusercontent.com/kklzzcun/CMS/main/assets/image-20250705232533041.png)
+![image-20250705232249324](https://raw.githubusercontent.com/kklzzcun/CMS/main/assets/image-20250705232249324.png)
 
 ![image-20250705232811177](https://raw.githubusercontent.com/kklzzcun/CMS/main/assets/image-20250705232811177.png)
+
 
 
 
