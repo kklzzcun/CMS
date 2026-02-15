@@ -10,10 +10,10 @@ DouHaoCMS 内容管理系统的数据库备份模块 (/app/Lib/Action/admin/back
 
 代码审计
 
-1、Line 162 if(strpos($backup_name,"/"))这里过滤无效，在此if判断中若发现"/"在首位会返回0，被if判断为fals。导致过滤失效返回的是0只有if(strpos($backup_name, "/") !== false)才能绕过检查，而且就算有效只检查参数是否包含斜杠，却完全忽略了 file 参数,虽不是任意文件下载主因，但证明了安全检查的脆弱性
-2、Line 165直接接收 file 参数，未限制 "../" 目录遍历符，也未限制文件后缀
-3、Line 171将未经过滤的 $file 直接拼接到路径中
-4、Line 172-178 致命逻辑错误！开发者使用了逻辑或 "||" 运算符：只要文件存在 (file_exists)，即允许下载，最终执行点：无视文件类型，直接输出系统敏感文件内容
+Line 162 if(strpos($backup_name,"/"))这里过滤无效，在此if判断中若发现"/"在首位会返回0，被if判断为fals。导致过滤失效返回的是0只有if(strpos($backup_name, "/") !== false)才能绕过检查，而且就算有效只检查参数是否包含斜杠，却完全忽略了 file 参数,虽不是任意文件下载主因，但证明了安全检查的脆弱性
+Line 165直接接收 file 参数，未限制 "../" 目录遍历符，也未限制文件后缀
+Line 171将未经过滤的 $file 直接拼接到路径中
+Line 172-178 致命逻辑错误！开发者使用了逻辑或 "||" 运算符：只要文件存在 (file_exists)，即允许下载，最终执行点：无视文件类型，直接输出系统敏感文件内容
 ![](https://raw.githubusercontent.com/kklzzcun/CMS/main/DouHaoCMS/assets/xz1.png)
 漏洞复现 
 
